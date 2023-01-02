@@ -7,3 +7,151 @@
     lilás #5f2c82
  
  */
+:root {
+    --cor1: #49a09d;
+    --cor-fundo: #5f2c82;
+}
+ * {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ body {
+    background-color: var(--cor-fundo);
+ }
+
+ main {
+    position: relative;
+    height: 480px;
+    width: 250px;
+    margin: auto;
+ }
+
+    
+
+
+
+section#login {
+    text-align: center; 
+    border-radius: 20px; 
+    height: 510px;
+    width: 250px;
+    margin: auto;
+    background-color: white;
+
+    box-sizing: border-box;
+    box-shadow: -2px 2px 2px 4px #4f246968;
+    
+
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    
+
+}
+
+div#imagem {
+    margin: auto;
+    background-image: url(../imagens/metal.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 200px;
+    width: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    
+}
+
+h1 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+ p#welcome {
+    font-size: 0.8em;
+    width: 233px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 2px;
+    line-height: 1.2em;
+ }
+
+
+ input#iemail {
+    border-radius: 8px;
+    height: 40px;
+    width: 225px;
+    margin: 2px;
+    border-top: 2px solid var(--cor-fundo) ;
+    border-bottom: 2px solid var(--cor-fundo) ;
+    border-left: 3px solid var(--cor-fundo);
+    border-right: 3px solid var(--cor-fundo);
+    background-color: #94cfcd;
+    font-size: 0.9em;
+    text-indent: 5px;
+
+ }
+
+ input#iemail:focus-within { 
+    background-color: white;
+}
+
+ input#isenha {
+    border-radius: 8px;
+    height: 40px;
+    width: 225px;
+    margin: 2px;
+    border-top: 2px solid var(--cor-fundo) ;
+    border-bottom: 2px solid var(--cor-fundo) ;
+    border-left: 3px solid var(--cor-fundo);
+    border-right: 3px solid var(--cor-fundo);
+    background-color: #94cfcd;
+    font-size: 0.9em;
+    text-indent: 5px;
+
+ }
+
+input#isenha:focus-within { 
+    background-color: white;
+}
+
+
+ #enviar {
+    height: 40px;
+    width: 230px;
+    margin: 2px;
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 8px;
+    border: 0px;
+
+ }
+
+ #enviar:hover {
+    background-color: #387977;
+
+
+ }
+
+ #limpar {
+    height: 40px;
+    width: 230px;
+    background-color: transparent;
+    border: 1px solid var(--cor1) ;
+    color: var(--cor1);
+    border-radius: 8px;
+    box-sizing: border-box;
+ }
+
+ #limpar:hover {
+    background-color: #6cd3cf77;
+ }
